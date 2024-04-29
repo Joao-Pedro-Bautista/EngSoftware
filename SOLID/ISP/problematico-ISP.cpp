@@ -51,6 +51,7 @@ int main() {
     cout << "\nCachorro:" << endl;
     cachorro.comer();
     cachorro.dormir();
+    
     // cachorro.voar(); // Não é possível chamar a função voar() para o cachorro, pois não foi implementada para ele.
 
     return 0;

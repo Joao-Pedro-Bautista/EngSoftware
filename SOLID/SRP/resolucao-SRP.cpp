@@ -15,7 +15,6 @@ class Visor{
         }
 };
 
-
 int main() {
 
     Calculator c1;

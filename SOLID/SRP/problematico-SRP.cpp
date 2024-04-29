@@ -8,7 +8,6 @@ public:
         int res = a + b;
 
         cout << "Resultado: " << res;
-
     }
 };
 

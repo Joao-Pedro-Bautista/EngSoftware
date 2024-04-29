@@ -10,6 +10,7 @@ class Forma{
 class Circulo: public Forma {
     public:
         void desenhar(){
+
             cout<< "\n";
 
             const int radius = 5;
@@ -35,6 +36,7 @@ class Circulo: public Forma {
 class Quadrado: public Forma {
     public:
         void desenhar(){
+
             cout<< "\n";
             const int size = 5;
 
@@ -50,6 +52,7 @@ class Quadrado: public Forma {
 class Triangulo: public Forma {
     public:
         void desenhar(){
+
             cout<< "\n";
             const int size = 5;
 
@@ -66,6 +69,7 @@ class Triangulo: public Forma {
 class Retangulo: public Forma {
     public:
         void desenhar(){
+            
             cout<< "\n";    
             const int width = 7;
             const int height = 4;

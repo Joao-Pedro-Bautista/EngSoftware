@@ -5,7 +5,7 @@ using namespace std;
 class Forma {
     public:
         void desenhar(int tipo){
-            if(tipo == 1) { //circulo
+            if(tipo == 1) {  //circulo
                 const int radius = 5;
                 const int diameter = radius * 2;
                 const int centerX = radius;
@@ -22,7 +22,7 @@ class Forma {
                         cout << endl;
                 }
             
-            } else if(tipo == 2) {//quadrado
+            } else if(tipo == 2) { //quadrado
                 const int size = 5;
 
                 for (int i = 0; i < size; ++i) {
@@ -41,7 +41,7 @@ class Forma {
                     }
                     cout << endl;
                 }
-            } else if(tipo == 4){//retangulo
+            } else if(tipo == 4){ //retangulo
                 const int width = 7;
                 const int height = 4;
 

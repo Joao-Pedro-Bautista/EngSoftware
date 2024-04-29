@@ -47,6 +47,7 @@ int main() {
     pato.comer();
     pato.dormir();
     pato.voar();
+    
 
     cout << "\nCachorro:" << endl;
     cachorro.comer();
