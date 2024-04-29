@@ -8,12 +8,12 @@ public:
     virtual void dormir() const = 0;
 };
 
-class Ave {
+class Ave: public Animal {
 public:
     virtual void voar() const = 0;
 };
 
-class Pato : public Animal, public Ave {
+class Pato :public Ave {
 public:
     void comer() const override {
         cout << "Pato comendo\n" << endl;
@@ -47,7 +47,7 @@ int main() {
     pato.comer();
     pato.dormir();
     pato.voar();
-    
+
 
     cout << "\nCachorro:" << endl;
     cachorro.comer();

@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class Calculator {
+class Calculadora {
 public:
     void add(int a, int b) {
 
@@ -13,7 +13,7 @@ public:
 
 int main() {
 
-    Calculator calc;
+    Calculadora calc;
 
     calc.add(20,60);
 
